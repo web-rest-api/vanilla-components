@@ -34,3 +34,28 @@ body {
     text-transform: uppercase;
     transition: .3s ease-out;
 }
+
+.btn-primary {
+    background-color: #61dafb;
+}
+
+.btn-secondary {
+    background-color: rgb(3, 152, 216);
+}
+
+.btn-danger {
+    background-color: #ee6e73;
+}
+
+.btn-primary:hover {
+    background-color: #2bbbad;
+}
+
+.btn-secondary:hover {
+    background-color: rgb(3, 103, 146);
+
+}
+
+.btn-danger:hover {
+    background-color: #d66266;
+}
