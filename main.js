@@ -1,15 +1,6 @@
 "use strict"
+import { buttonComp } from "./components/buttonComp.js"
 
-const buttonComp = () => {
-	const button = document.createElement("button")
-	button.innerText = "click"
-	button.classList.add("btn")
-	button.addEventListener("click", () => {
-		console.log("clicked the btn !!")
-	})
-	return button
-}
-
-app.appendChild(buttonComp())
-app.appendChild(buttonComp())
-app.appendChild(buttonComp())
+app.appendChild(buttonComp("click"))
+app.appendChild(buttonComp("test"))
+app.appendChild(buttonComp("test deux"))
