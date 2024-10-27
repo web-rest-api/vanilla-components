@@ -1,14 +1,8 @@
 "use strict"
 import { buttonComp } from "./components/buttonComp.js"
+import { showResult } from "./components/showResult.js"
 
 let result = 0
-
-const showResult = (result) => {
-	const divCont = document.createElement("div")
-	divCont.classList.add("result")
-	divCont.textContent = result
-	return divCont
-}
 
 app.appendChild(buttonComp("click", "btn-primary", clickOne))
 app.appendChild(buttonComp("test", "btn-secondary", clickTwo))
