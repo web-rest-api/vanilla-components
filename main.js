@@ -3,7 +3,7 @@ import { buttonComp } from "./components/buttonComp.js"
 import { showResult } from "./components/showResult.js"
 import { clickOne, clickThree, clickTwo } from "./utils/functions.js"
 
-let result = 0
+window.result = 0
 
 app.appendChild(buttonComp("click", "btn-primary", clickOne))
 app.appendChild(buttonComp("test", "btn-secondary", clickTwo))
