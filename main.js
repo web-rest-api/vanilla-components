@@ -12,15 +12,24 @@ app.appendChild(showResult(result))
 
 function clickOne() {
 	result++
-	document.querySelector(".result").textContent = result
+	updateDOMResult(result)
 }
 
 function clickTwo() {
 	result--
-	document.querySelector(".result").textContent = result
+	updateDOMResult(result)
 }
 
 function clickThree() {
 	result = 0
+	updateDOMResult(result)
+}
+
+/**
+ *
+ * @param {number} result
+ * @returns {void}
+ */
+function updateDOMResult(result) {
 	document.querySelector(".result").textContent = result
 }
