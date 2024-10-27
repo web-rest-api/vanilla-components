@@ -14,5 +14,5 @@ function clickTwo() {
 }
 
 function clickThree() {
-	console.log("click button two!")
+	console.log("click button three!")
 }
