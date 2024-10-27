@@ -12,6 +12,8 @@ body {
 
 #app {
     padding: 1em;
+    display: flex;
+    gap: 1em;
 }
 
 .btn {
