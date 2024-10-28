@@ -11,6 +11,10 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+h1 {
+    text-align: center;
+}
+
 #app {
     padding: 1em;
     display: grid;
