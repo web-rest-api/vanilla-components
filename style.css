@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
 * {
     margin: 0;
@@ -12,8 +13,11 @@ body {
 
 #app {
     padding: 1em;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 1em;
+    max-width: 400px;
+    margin: auto;
 }
 
 .btn {
@@ -45,6 +49,7 @@ body {
 
 .btn-danger {
     background-color: #ee6e73;
+    grid-column: span 2;
 }
 
 .btn-primary:hover {
@@ -58,4 +63,14 @@ body {
 
 .btn-danger:hover {
     background-color: #d66266;
+}
+
+.result {
+    grid-column: span 2;
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    font-size: 2em;
+    background-color: #012838;
+    color: #74f974;
+    text-shadow: 0px 1px 6px #88f988;
 }
